@@ -17,7 +17,6 @@ const LoginForm = () => {
         const json = await response.json();
         const token = json.access_token;
         console.log(token);
-
     }
     
     return (
