@@ -23,7 +23,6 @@ const ProductDetails = () => {
         <h4>{oneProduct.description}</h4>
         <img src={oneProduct.coverimage}/>
         
-        <button>Back to Homepage</button>
     </>  
     )
 }
