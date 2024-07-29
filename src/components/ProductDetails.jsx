@@ -20,7 +20,7 @@ const ProductDetails = () => {
         <h2>{oneProduct.title}</h2>
         <h3>{oneProduct.author}</h3>
         
-        {oneProduct.description}
+        <h4>{oneProduct.description}</h4>
         <img src={oneProduct.coverimage}/>
         
         <button>Back to Homepage</button>

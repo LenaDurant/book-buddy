@@ -17,14 +17,15 @@ const Products = ({setOneProducts}) => {
       <ul>
         {
          productList.map((oneProduct) => {
-            return <li key={oneProduct.id}><a href={`/products/${oneProduct.id}`}>{oneProduct.title}</a></li>
+            return <li key={oneProduct.id}><a href={`/products/${oneProduct.id}`}>{oneProduct.title}</a><a href={`/products/${oneProduct.id}`}><img src={oneProduct.coverimage}/></a></li>
             {
                 token ? <button>Buy Now</button> : null
             }
             })
         }
       </ul>
-      <button>Back to Homepage</button>
+      
+     
     </>  
     )
 }

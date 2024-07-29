@@ -13,13 +13,24 @@ h2 {
     color: black;
     text-align: center;
     font-size: x-large;
+    background-color: antiquewhite;
+    border: 5px;
+    border-color: black;
+    border-style: double;
+}
+
+h3:hover {
+   font-size: x-large;
+   
+}
+
+h4 {
+    color: black;
+    text-align: center;
 }
 
 nav {
     text-align: left;
-    color: lightgreen;
-    
-    
 }
 
 a {
@@ -31,17 +42,20 @@ a {
 }
 a:hover{
     background-color: goldenrod;
+    border: 5px;
+    border-color: black;
+    border-style: double;
 }
 p {
-color: antiquewhite ;
-font-size: xx-large;
+    color: antiquewhite ;
+    font-size: xx-large;
+    text-align: center;
 }
 
 form {
-    display: block;
     margin-left: auto;
     margin-right: auto;
-    
+    align-content: center;    
 }
 
 button {
@@ -55,17 +69,27 @@ button {
 }
 
 ul {
-    list-style-type: none;
-    margin-left: 650px;
-    padding: 0;
-    width: 700px;
+    list-style-type: upper-roman;
+    display: flex;
+    flex-flow: row wrap;
     text-align: center;
+    justify-content: space-evenly;
 }
 
+li {
+    display: flex;
+    flex-direction: column;
+}
 img {
-    display: block;
+    
     margin-left: auto;
     margin-right: auto;
+    border: 9px solid antiquewhite;
     width: 400px;
     height: 500px;
 }
+
+img:hover {
+    align-content: center;
+}
+
