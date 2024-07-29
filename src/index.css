@@ -1,0 +1,71 @@
+body {
+    background-color: lightblue;
+
+}
+
+h1 {
+    color: antiquewhite;
+    text-align: center;
+    font-size: 500%;
+}
+
+h2 {
+    color: black;
+    text-align: center;
+    font-size: x-large;
+}
+
+nav {
+    text-align: left;
+    color: lightgreen;
+    
+    
+}
+
+a {
+    color: black;
+    text-align: center;
+    text-decoration: inherit;
+    font-weight: 500;
+    font-size: xx-large;
+}
+a:hover{
+    background-color: goldenrod;
+}
+p {
+color: antiquewhite ;
+font-size: xx-large;
+}
+
+form {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+button {
+    font-size: x-large;
+    margin-top: 50px;
+    border-radius: 8px;
+    border: 1px solid transparent;
+    font-weight: 500;
+    font-family: inherit;
+    cursor: pointer;
+}
+
+ul {
+    list-style-type: none;
+    margin-left: 650px;
+    padding: 0;
+    width: 700px;
+    text-align: center;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 400px;
+    height: 500px;
+}
